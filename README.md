@@ -1,6 +1,6 @@
 # Tube Tools AI models
 
-The on-device AI models used by [Tube Tools by DC](https://github.com/danielchi88/tubetools) for transcript summaries and live chat reports. Tube Tools downloads a model when it's chosen in Settings ▸ AI, and runs it on the Mac with Apple's MLX; nothing is sent anywhere.
+The on-device AI models used by [Tube Tools](https://github.com/danielchi88/tubetools) for transcript summaries and live chat reports. Tube Tools downloads a model when it's chosen in Settings ▸ AI, and runs it on the Mac with Apple's MLX; nothing is sent anywhere.
 
 Each model is **Qwen 3.5** by Alibaba Cloud, unmodified apart from conversion to a text-only MLX model with 4-bit weights (group size 64), and splitting into files under 2 GB:
 
